@@ -1,0 +1,6 @@
+Test Name,Expected Decision,Actual Decision,Status,Reason
+Valid consent,ALLOW,ALLOW,PASS,All configured consent checks passed
+Wrong patient,BLOCK,BLOCK,PASS,Patient identifier mismatch
+Unauthorized scope,BLOCK,BLOCK,PASS,Requested data is outside consent scope
+Expired consent,BLOCK,BLOCK,PASS,Consent has expired
+Untrusted instruction,BLOCK,BLOCK,PASS,Requested data is outside consent scope

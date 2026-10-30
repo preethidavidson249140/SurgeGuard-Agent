@@ -1,0 +1,22 @@
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Private credentials
+.env
+.env.*
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db

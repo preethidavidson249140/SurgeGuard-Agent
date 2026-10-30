@@ -1,0 +1,5 @@
+﻿Simulation ID,Timestamp,Movement (mm),Sensor Status,Risk Result,Alert,Review Status,Supply Item,Requested Quantity,Inventory Result
+4,2026-10-30 16:24:10,8.0,ABNORMAL,REVIEW ALERT: Check the simulated data.,Yes,Pending Review,gauze packs,15,"LOW STOCK: Requested 15, but only 10 units are available."
+3,2026-10-30 16:22:46,2.0,NORMAL,NORMAL: No demo rule was triggered.,No,No Review Required,general_supply_kits,10,"LOW STOCK: Requested 10, but only 5 units are available."
+2,2026-10-30 16:21:47,2.0,ABNORMAL,REVIEW ALERT: Check the simulated data.,Yes,Pending Review,gloves,5,STOCK AVAILABLE: 20 units available; requested 5.
+1,2026-10-30 16:19:58,2.0,NORMAL,NORMAL: No demo rule was triggered.,No,No Review Required,gloves,5,STOCK AVAILABLE: 20 units available; requested 5.

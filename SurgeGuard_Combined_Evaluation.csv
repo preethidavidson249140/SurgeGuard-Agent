@@ -1,0 +1,10 @@
+﻿Evaluation Type,Simulation ID,Timestamp,Movement (mm),Sensor Status,Risk Result,Alert,Review Status,Supply Item,Requested Quantity,Inventory Result,Test Name,Expected Decision,Actual Decision,Status,Reason
+Healthcare Simulation,4,2026-10-30 16:24:10,8.0,ABNORMAL,REVIEW ALERT: Check the simulated data.,Yes,Pending Review,gauze packs,15,"LOW STOCK: Requested 15, but only 10 units are available.",,,,,
+Healthcare Simulation,3,2026-10-30 16:22:46,2.0,NORMAL,NORMAL: No demo rule was triggered.,No,No Review Required,general_supply_kits,10,"LOW STOCK: Requested 10, but only 5 units are available.",,,,,
+Healthcare Simulation,2,2026-10-30 16:21:47,2.0,ABNORMAL,REVIEW ALERT: Check the simulated data.,Yes,Pending Review,gloves,5,STOCK AVAILABLE: 20 units available; requested 5.,,,,,
+Healthcare Simulation,1,2026-10-30 16:19:58,2.0,NORMAL,NORMAL: No demo rule was triggered.,No,No Review Required,gloves,5,STOCK AVAILABLE: 20 units available; requested 5.,,,,,
+Security Evaluation,,,,,,,,,,,Valid consent,ALLOW,ALLOW,PASS,All configured consent checks passed
+Security Evaluation,,,,,,,,,,,Wrong patient,BLOCK,BLOCK,PASS,Patient identifier mismatch
+Security Evaluation,,,,,,,,,,,Unauthorized scope,BLOCK,BLOCK,PASS,Requested data is outside consent scope
+Security Evaluation,,,,,,,,,,,Expired consent,BLOCK,BLOCK,PASS,Consent has expired
+Security Evaluation,,,,,,,,,,,Untrusted instruction,BLOCK,BLOCK,PASS,Requested data is outside consent scope
